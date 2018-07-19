@@ -12,7 +12,7 @@ function getLabel(el, i, data) {
   x.setMinutes(0);
   x.setSeconds(0);
   x.setMilliseconds(0);
-  return x.toString();
+  return x.toLocaleString();
 }
 
 export function createChart(container, data, isActive) {
